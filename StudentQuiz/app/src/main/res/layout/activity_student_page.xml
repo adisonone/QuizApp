@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Profile"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_color"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/viewProfile"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Score"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_color"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/viewScore"/>
+
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/button_color"
+            android:text="Quantative Aptitude"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/quant"/>
+        <Button
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_color"
+            android:text="Current Affairs"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/ca"/>
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_color"
+            android:text="IQ Test"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/iq"/>
+        <Button
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_color"
+            android:text="Vocabulary Test"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/vocab"/>
+
+        <Button
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_color"
+            android:text="Puzzle Question"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/puzzle"/>
+
+        <Button
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_color"
+            android:text="Logout"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/logout"/>
+    </LinearLayout>
+
+</ScrollView>

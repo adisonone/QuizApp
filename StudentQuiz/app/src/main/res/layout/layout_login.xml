@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:background="@drawable/quizzlel_ogo"
+        />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:hint="Enter Email"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:id="@+id/email"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textWebEmailAddress"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:background="@drawable/box"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:id="@+id/login"/>
+</LinearLayout>

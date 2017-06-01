@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aditya.studentquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Quizzle"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity"/>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".StudentPageActivity"/>
+        <activity android:name=".IQTestPageActivity"/>
+        <activity android:name=".PuzzleTestPageActivity"/>
+        <activity android:name=".QuantativeTestPageActivity"/>
+        <activity android:name=".VocabularyTestPageActivity"/>
+        <activity android:name=".CurrentAffairsTestPageActivity"/>
+        <activity android:name=".ViewScoreActivity"/>
+        <activity android:name=".ViewProfileActivity"/>
+        <activity android:name=".ShowQuesAnsActivity"/>
+    </application>
+
+</manifest>
